@@ -1,0 +1,104 @@
+#childrenContainer.browser {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.grid-container {
+    font-family: anon;
+}
+
+/* ### PRINCIPAL-GRID */
+
+.principal-grid {
+    height: 95vh;
+    font-size: 0.9rem;
+}
+
+.principal-grid .mossgreen-window {
+    width: 23vw;
+    height: 37vh;
+}
+
+.principal-grid .mossgreen-window h3 {
+    padding: 10px;
+}
+
+.principal-grid .menu {
+    position: relative;
+    left: -20px;
+    height: 25vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: flex-start;
+}
+
+.principal-grid .menu button {
+    margin-bottom: 5px;
+}
+
+.principal-grid .personal-data .title {
+    font-size: 0.9rem;
+    color: var(--matrix-rgba-50);
+}
+
+.principal-grid .personal-data > span {
+    margin-bottom: 4px;
+    margin-left: 15px;
+    text-shadow: 0px 1px 1px var(--tearsgreen-rgb);
+}
+
+.principal-grid .personal-data span a {
+    color: var(--lightblue-rgb);
+}
+
+.principal-grid .personal-data > span::before {
+    content: '> ';
+}
+
+.principal-grid .personal-data .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.principal-grid .personal-data .links a {
+    font-size: 1.15rem;
+    text-shadow: 0 0 4px var(--tearsgreen-rgb);
+    /* text-shadow: 1px 1px 0px var(--tearsgreen-rgb); */
+    text-decoration: none;
+}
+
+/* ### SECTION-GRID */
+
+.grid-container .sections-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-shadow: 0px 1px 1px var(--tearsgreen-rgb);
+}
+
+.grid-container .sections-grid > div {
+    flex: 1;
+    margin-right: 5px;
+    font-size: .9rem;
+    border: 2.5px solid transparent;
+    height: 95vh;
+    overflow-y: auto;
+}
+
+.grid-container .sections-grid .description {
+    margin-bottom: 15px;    
+}
+
+.grid-container .sections-grid .description > span:first-child::before {
+    content: '> ';
+}
+
+.grid-container .sections-grid .questionary .questions {
+    padding-left: 10px;
+    padding-right: 10px;
+}

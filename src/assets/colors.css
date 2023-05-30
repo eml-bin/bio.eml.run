@@ -1,0 +1,54 @@
+:root {
+    --black-rgb: rgb(40, 40, 40);
+    --black-rgba-75: rgba(0, 0, 0, 0.75);
+    --black-rgba-90: rgba(0, 0, 0, 0.9);
+    
+    --lightgray-rgba-35: rgba(175, 175, 175, 0.35);
+    --lightgray-rgba-85: rgba(175, 175, 175, 0.85);
+    --lightgray-rgb: rgb(240, 240, 240);
+    --mossgreen-rgb: rgb(1, 146, 90);
+    --mossblackgreen-rgb: rgb(1, 30, 20);
+    --mossgraygreen-rgba: rgba(1, 66, 46, 0.65);
+    --lightblue-rgb: rgb(138, 221, 244);
+    --lightblue-rgba-50: rgba(0, 233, 241, 0.5);
+    /* menu-button */
+    --rubypink-rgba: rgba(255, 116, 160, 0.90);
+    --rubyred-rgba-60: rgba(227, 0, 70, 0.60); 
+    /* menu-button */
+    --periwinklelight-rgba: rgba(125, 116, 255, 0.9);
+    --periwinkledark-rgba-60: rgba(1, 4, 199, 0.60); 
+    /* menu-button */
+    --silverlight-rgba: rgba(200, 200, 200, 0.95);
+    --silverdark-rgba-70: rgba(107, 107, 107, 0.70);
+
+
+    --graywhite-rgba-85: rgba(200, 200, 200, 0.85);
+    --graywhite-rgba-50: rgba(230, 230, 230, 0.50);
+
+    --white-rgba-20 :rgba(255,255,255, 0.2);
+    --white-rgba-60: rgba(255, 255, 255, 0.6);
+    --white-rgba-70: rgba(255, 255, 255, 0.7);
+    --white-rgba-90: rgba(255, 255, 255, 0.9);
+    --white-rgb: rgb(255, 255, 255);
+
+    --tearsgreen-rgb: rgb(9,244,142);
+    --tearsgreen-rgba-95: rgba(9,244,142,0.95);
+    --tearsgreen-rgba-90: rgba(9,244,142,0.9);
+    --tearsgreen-rgba-85: rgba(9,244,142,0.85);
+    --tearsgreen-rgba-10: rgba(9,244,142, 0.3);
+    --tearslight-rgb: rgb(174, 251, 218);
+    --tearsoff-rgb: rgb(210, 255, 235);
+    
+    --matrix-rgba-50: rgba(0, 255, 0, 0.5);
+
+    --sys-yellow: yellow;
+    --sys-coral: coral;
+    --sys-orange: orange;
+    --sys-red: red;
+    --sys-blue: blue;
+    --sys-chartreuse: chartreuse;
+    --sys-aquamarine: aquamarine;
+    --sys-wheat: wheat;
+    --sys-lime: lime;
+    --sys-lightskyblue: lightskyblue;
+}

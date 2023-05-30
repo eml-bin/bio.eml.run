@@ -1,0 +1,87 @@
+#childrenContainer.mobile {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.mobile-container {
+    font-family: anon;
+    font-size: 0.9rem;
+}
+
+.mobile-container .menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mobile-container .menu > button {
+    margin-right: 7px;
+}
+
+.mobile-container .sections-grid {
+    text-shadow: 0px 1px 1px var(--tearsgreen-rgb);
+}
+
+.mobile-container .data-grid .title {
+    font-size: 0.9rem;
+    color: var(--matrix-rgba-50);
+}
+
+.mobile-container .data-grid .personal-data > span {
+    margin-bottom: 4px;
+    margin-left: 15px;
+    text-shadow: 0px 1px 1px var(--tearsgreen-rgb);
+}
+
+.mobile-container .data-grid .personal-data > span::before {
+    content: '> ';
+}
+
+.mobile-container .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.mobile-container .links a {
+    font-size: 1.15rem;
+    text-shadow: 0 0 4px var(--tearsgreen-rgb);
+    /* text-shadow: 1px 1px 0px var(--tearsgreen-rgb); */
+    text-decoration: none;
+}
+
+.mobile-container .sections-grid .description {
+    margin-bottom: 15px;    
+}
+
+.mobile-container .sections-grid .questionary .questions,
+.mobile-container .sections-grid .timeline .description {
+    padding-left: 20px;    
+    padding-right: 20px;    
+}
+
+.mobile-container .sections-grid .description > span:first-child::before {
+    content: '> ';
+}
+
+@media screen and (orientation:landscape) {    
+    .mobile-container .data-grid > div,
+    .mobile-container .sections-grid > div {
+        width: 65vw;
+        margin: auto
+    }
+}
+
+@media screen and (orientation:portrait) {
+    .mobile-container .data-grid .menu {
+        position: absolute;
+        top: 40%;
+    }
+
+}

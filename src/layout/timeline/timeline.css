@@ -1,0 +1,36 @@
+.timeline .description {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline .description > span:first-child {
+    color: var(--sys-yellow);
+}
+
+.timeline .description > span:nth-child(2) {
+    color: var(--sys-lime);
+}
+
+.timeline .description > span:nth-child(n+2) {
+    margin-left: 17px;
+}
+
+.timeline .description > span:nth-child(2)::before {
+    content: '🪪 ';
+}
+
+.timeline .description > span:nth-child(3)::before {
+    content: '📃 ';
+}
+
+.timeline .description > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17px;
+    margin-top: 1px;
+    text-align: justify;
+}
+
+.timeline .description > div > span:nth-child(2) {
+    margin-left: 5px;
+}

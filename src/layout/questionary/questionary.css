@@ -1,0 +1,8 @@
+.questionary .questions {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.questionary .questions > span:first-child {
+    color: var(--sys-yellow);
+}

@@ -1,0 +1,111 @@
+@import url("animations.css");
+@import url("colors.css");
+
+@font-face {
+    font-family: aztec;
+    src: url('./fonts/azteca.TTF');
+}
+
+@font-face {
+    font-family: anon;
+    src: url('./fonts/anon-regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: anon;
+    src: url('./fonts/anon-bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: bitfont;
+    src: url('./fonts/bitfont.ttf');
+}
+
+@font-face {
+    font-family: vt323;
+    src: url('./fonts/VT323-regular.ttf');
+}
+
+@font-face {
+    font-family: cutive;
+    src: url('./fonts/cutive-regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+*::-webkit-scrollbar-track {
+    border: 1px solid var(--white-rgba-20);
+    background-color: var(--black-rgba-90);
+    opacity: 0.1;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--black-rgb);
+    border: 1px dotted var(--tearsgreen-rgba-85);
+}
+
+hr.dashed {
+    border: none;
+    border-top-style: dashed;
+    border-top-width: 1px;
+}
+
+.binary-jumpline {
+    display: block;
+    color: var(--lightgray-rgba-35);
+    white-space: nowrap;
+    font-size: 0.65em;
+}
+
+.binary-jumpline::before {
+    content: '001011000110111010010101101110100100101011110001010010111011010010101010100101001011000110111010010101101110100100101011110001010010111011010010101010100101';
+}
+
+.neon-ef {
+    animation: neon-light 2s infinite, flicker 1s infinite;
+}
+
+.mossgreen-window {
+    background: linear-gradient(var(--mossgreen-rgb), var(--mossblackgreen-rgb) 0.1%, var(--mossgraygreen-rgba) 50%, var(--black-rgb) 150%);
+}
+
+.tools {
+    color: var(--white-rgba-90) !important;
+    background-color: var(--rubyred-rgba-60) !important;
+}
+
+.timeline {
+    color: var(--white-rgba-90) !important;
+    background-color: var(--periwinkledark-rgba-60) !important;
+}
+
+.questionary {
+    color: var(--white-rgba-90) !important;
+    background-color: var(--silverdark-rgba-70) !important;
+}
+
+.typing {
+    overflow: hidden;
+    align-self: flex-start;
+    width: auto;
+    border-right: .15em solid transparent; 
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: 
+    typing 2.5s steps(30, end)
+}
+
+.snake-animation {
+    animation: snake-border 2s infinite linear;
+}

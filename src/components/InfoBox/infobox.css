@@ -1,0 +1,28 @@
+.infobox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: var(--white-rgb);
+}
+
+.infobox .title {
+    display: flex;
+    align-items: normal;
+    margin-bottom: 5px;
+}
+
+.infobox .title span {
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-shadow: 0px 1px 1px var(--tearsgreen-rgb);
+}
+
+.infobox .title svg {
+    font-size: 1rem;
+    margin-right: 5px;
+}

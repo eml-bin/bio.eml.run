@@ -1,0 +1,13 @@
+.tools .description > span {
+    color: var(--sys-yellow);
+}
+
+.tools .description > .items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17px;
+}
+
+.tools .description > .items > span::before {
+    content: '* ';
+}
