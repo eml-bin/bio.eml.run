@@ -3,6 +3,7 @@ import React from "react"
 import './questionary.css'
 import { useConstants } from "../../core/hooks/useConstants"
 import { InfoBox } from "../../components/InfoBox/InfoBox"
+import { useTranslation } from "react-i18next"
 
 const Questionary = ({ showAnimation }) => {
 
@@ -11,19 +12,21 @@ const Questionary = ({ showAnimation }) => {
         questionaryData
     } = useConstants()
 
+    const { t } = useTranslation()
+
     return (
         <Box className={`${sections.QUESTIONARY} neon-ef ${ showAnimation ? 'snake-animation' : ''}`}>
             <InfoBox
-                titleLabel={'🧑‍🦱 biografía'}
+                titleLabel={`🧑‍🦱 ${t('cuestionario')}`}
             >
                 <hr className="dashed" /> 
                 <br/>
                 {
                     questionaryData.map((item, idx) => (
                         <Box className='questions'>
-                            <span>P: { item.question }</span>
+                            <span>P: { `${t(item.question)}` }</span>
                             <br/>
-                            <span dangerouslySetInnerHTML={{ __html: `R: ${item.answer}` }} />
+                            <span dangerouslySetInnerHTML={{ __html: `R: ${t(item.answer)}` }} />
                         </Box>
                     ))
                 }

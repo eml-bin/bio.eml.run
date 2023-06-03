@@ -10,6 +10,7 @@ import { ThemeProvider } from '@emotion/react';
 import { theme } from './mui-theme'
 import { BrowserView, MobileView } from 'react-device-detect';
 import { BioMobile } from './layout/mobile/bio';
+import './i18n';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

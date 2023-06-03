@@ -1,0 +1,29 @@
+.translation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: var(--tearsgreen-rgb);
+    padding-right: 1vw;
+    padding-top: 1vw;
+}
+
+.translation a {
+    color: var(--tearsgreen-rgb);
+    text-shadow: 0 0 4px var(--tearsgreen-rgb);
+    text-decoration: none;
+    border-bottom: 1px solid var(--tearsgreen-rgb);
+}
+
+.translation a > svg {
+    width: 0.9rem;
+    height: 0.9rem;
+    color: var(--tearsgreen-rgb);
+    margin-right: 5px;
+}
+
+.translation a > span {
+    font-size: 0.8rem;
+    vertical-align: text-top;
+}

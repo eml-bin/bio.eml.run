@@ -63,13 +63,17 @@ hr.dashed {
 
 .binary-jumpline {
     display: block;
-    color: var(--lightgray-rgba-35);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* color: var(--lightgray-rgba-35); */
+    color: var(--tearsgreen-rgba-25);
     white-space: nowrap;
-    font-size: 0.65em;
+    font-size: 0.85rem;
 }
 
 .binary-jumpline::before {
-    content: '001011000110111010010101101110100100101011110001010010111011010010101010100101001011000110111010010101101110100100101011110001010010111011010010101010100101';
+    font-family: "aztec";
+    content: "+'BCDEFGHIJKMNOPQRST+'BCDEFGHIJKMNOPQRST+'BCDEFGHIJKMNOPQRST+'BCDEFGHIJKMNOPQRST+'BCDEFGHIJKMNOPQRST";
 }
 
 .neon-ef {

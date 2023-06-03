@@ -18,7 +18,6 @@
 
 .principal-grid .mossgreen-window {
     width: 23vw;
-    height: 37vh;
 }
 
 .principal-grid .mossgreen-window h3 {
@@ -28,7 +27,6 @@
 .principal-grid .menu {
     position: relative;
     left: -20px;
-    height: 25vh;
     width: auto;
     display: flex;
     flex-direction: column;

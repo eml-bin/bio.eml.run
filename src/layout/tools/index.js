@@ -4,6 +4,7 @@ import { useTools } from "./hook"
 import './tools.css'
 import { InfoBox } from "../../components/InfoBox/InfoBox"
 import { useConstants } from "../../core/hooks/useConstants"
+import { useTranslation } from "react-i18next"
 
 const Tools = ({ showAnimation }) => {
 
@@ -14,22 +15,24 @@ const Tools = ({ showAnimation }) => {
         sections
     } = useConstants()
 
+    const { t } = useTranslation()
+
     return (
         <Box className={`${sections.TOOLS} neon-ef ${ showAnimation && 'snake-animation'}`}>
             <InfoBox
-                titleLabel={'🛠️ herramientas'}
+                titleLabel={`🛠️ ${t('herramientas')}`}
             >
                 <hr className="dashed" /> 
                 <br/>
                 {
                     toolsData.map((tool, idx) => (
                         <Box className='description'>
-                            <span> { tool.field }: </span>
+                            <span> { t(tool.field) }: </span>
                             <Box className='items'>
                                 {
                                     tool.items.map((item, idx) => (
                                         <span>
-                                            { item }
+                                            { t(item) }
                                         </span>
                                     ))
                                 }

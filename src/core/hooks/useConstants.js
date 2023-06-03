@@ -5,6 +5,7 @@ export const useConstants = () => {
 
     const sections = useMemo(() => DICTIONARY.SECTIONS, [])
     const docs = useMemo(() => DICTIONARY.DOCS, [])
+    const langs = useMemo(() => DICTIONARY.LANGS, [])
     const codex = useMemo(() => SEED.CODEX, [])
 
     const personalData = useMemo(() => SEED.PERSONAL_DATA.BIO, [])
@@ -15,6 +16,7 @@ export const useConstants = () => {
 
     return {
         codex,
+        langs,
         docs,
         personalData,
         linksData,

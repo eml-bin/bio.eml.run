@@ -1,0 +1,51 @@
+{
+    "timelineActivities": {
+        "exertus20222023": "Participación en proyecto para el desarrollo de un portal de servicios administrativos que centraliza las operaciones del software ERP SAP de compañías afiliadas, mi rol principal fue en el desarrollo frontend con ReactJS y durante la última etapa de la fase auxiliando en tareas de backend en C#",
+        "vrparallevar2020": "Liderar el desarrollo de portal web de realidad virtual 360° para un evento de cine, donde usuarios de México pudieran visualizar cortometrajes desde casa utilizando un visor como el Google Cardboard",
+        "gestalabs20192022": "Participación en la planificación y desarrollo colaborativo con equipo frontend/backend de servicios para soluciones de innovación de industria 4.0, trabajé estrechamente con compañeros de trabajo expertos en IoT y/o IA, Cloud/Arquitectura para el diseño e implementación. <br/><br/> - App móvil instalada en trailers para la optimización de combustible, proporcionando a los pilotos indicaciones en tiempo real información para optimizar su conducción basada en la ruta y carga del viaje. <br/><br/> - Dashboards industriales para el monitoreo y mantenimiento preventivo de máquinas industriales utilizando sensores de variables de las máquinas en tiempo-real <br/><br/> - Dashboards con computer vision para la detección de fallas en piezas industriales, utilizando hardwares como cámaras y CPUs en tiempo real de imágenes en 2D y 3D",
+        "interserv20182019": "Apertura del departamento de desarrollo de software en una pequeña compañía, mi responsabilidad principal fue construir un sitio de intranet para la administración y monitoreo de proyectos",
+        "campusparty2016": "Participación y presentación de proyecto en hackathon centrado en ideas para combatir la pobreza, nuestro equipo desarrolló un prototipo de app móvil facilitando a los usuarios la localización de albergues en su área geográfica brindando información sobre las necesidades específicas de cada albergue <br/><br/> top #10 (León, Guanajuato) <br/> top #100 (Guadalajara, Jalisco)"
+    },
+    "questionary": {
+        "qa1": {
+            "q": "¿Qué habilidades y fortalezas crees que tienes?",
+            "a": "Me considero una persona capaz de solucionar problemas, normalmente doy mi mejor esfuerzo hasta lograr lo requerido y me gusta escuchar a los demás, si es necesario ayudar"
+        },
+        "qa2": {
+            "q": "¿Qué actividades laborales son de tu interés?",
+            "a": "Disfruto del diseño y análisis, poner a prueba el ingenio, ejecutar ideas y desarrollándolas."
+        },
+        "qa3": {
+            "q": "¿Qué temas de software son de su interés?",
+            "a": "Blockchain, inteligencia artificial (algoritmos genéticos) y estoy sumamente interesado en aprender nuevas prácticas/métodos para el análisis/diseño/programación"
+        },
+        "qa4": {
+            "q": "¿En qué proyectos te gustaría participar?",
+            "a": "Preferentemente los proyectos que tengan como objetivo mejorar la vida de todos, ser parte de un cambio para bien. <br/><br/> También me atraen los proyectos de innovación retadores, que requieran el ingenio y esfuerzo."
+        },
+        "qa5": {
+            "q": "¿Qué objetivos a largo plazo tienes?",
+            "a": "Principalmente seguir laborando, me gusta la idea de tener un proyecto personal en desarrollo y aspiro a tener un patrimonio, como construir un hogar con mis seres queridos."
+        },
+        "qa6": {
+            "q": "¿Cómo es tu personalidad?",
+            "a": "Soy alguien tranquilo e introvertido/tímido, en un principio puedo parecer serio, pero me gusta conocer a las personas."
+        },
+        "qa7": {
+            "q": "¿Cuál es el significado de la vida para ti?",
+            "a": "Vivir todas las emociones intentar ser mejor cada día, fluir con tu generación, apreciar el tiempo ⏳, aportar y respetar a la naturaleza para dejar un mejor lugar para la vida siguiente."
+        },
+        "qa8": {
+            "q": "Si tuvieras un deseo, ¿cuál sería?",
+            "a": "Poder conocer y presenciar el universo 🌌"
+        },
+        "qa9": {
+            "q": "¿Cuáles son tus aficiones o placeres?",
+            "a": "Disfruto de poder jugar Videojuegos, aprender a tocar piano como música clásica, leer sobre antropología mexicana novelas, ciencia ficción o filosofía, ver series/películas, disfrutar de casi cualquier tipo de comida. <br/> <br/> También disfruto los momentos de desconexión como salir de viaje a cualquier lugar a caminar a bosques o descansar en la playa"
+        },
+        "qa10": {
+            "q": "¿Tienes alguna mascota?",
+            "a": "3 gatos/1 perro"
+        }
+    }
+}

@@ -3,6 +3,7 @@ import React from "react"
 import './timeline.css'
 import { useConstants } from "../../core/hooks/useConstants"
 import { InfoBox } from "../../components/InfoBox/InfoBox"
+import { useTranslation } from "react-i18next"
 
 const Timeline = ({ showAnimation }) => {
 
@@ -11,10 +12,12 @@ const Timeline = ({ showAnimation }) => {
         timelineData
     } = useConstants()
 
+    const { t } = useTranslation()
+
     return (
         <Box className={`${sections.TIMELINE} neon-ef ${ showAnimation ? 'snake-animation' : ''}`}>
             <InfoBox
-                titleLabel={'⏳ línea del tiempo'}
+                titleLabel={`⏳ ${t("línea del tiempo")}`}
             >
                 <hr className="dashed" /> 
                 <br/>
@@ -22,8 +25,8 @@ const Timeline = ({ showAnimation }) => {
                     timelineData.map((data, idx) => (
                         <Box className='description'>
                             <span> { data.title } ({ data.time}) </span>
-                            <span> {`${data.role}`} </span>
-                            <span dangerouslySetInnerHTML={{ __html: data.activity }} />
+                            <span> { t(data.role) } </span>
+                            <span dangerouslySetInnerHTML={{ __html: t(data.activity) }} />
                         </Box>
                     ))
                 }

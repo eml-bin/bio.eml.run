@@ -1,0 +1,80 @@
+{
+    "datos": "data",
+    "nombre": "name",
+    "nacimiento": "birth",
+    "nacionalidad": "nationality",
+    "cédula": "ID-Card",
+    "rol": "role",
+    "Mexicano": "Mexican",
+    "CV": "resume",
+    "móvil": "mobile",
+
+
+    "herramientas": "tools",
+    "Infraestructura": "Infrastructure",
+    "Móvil": "Mobile",
+    "Librerías/Frameworks": "Libraries/Frameworks",
+    "Gestión de Proyectos": "Project Management",
+    "Colaboración": "Collaboration",
+    "Protocolos": "Protocols",
+    "Diseño": "Design",
+    "diagramas de arquitectura": "architecture diagrams",
+    "diagramas de flujo": "flowcharts diagrams",
+    "diagramas entidad-relación": "entity-relationship diagrams",
+    "diagramas de secuencia": "sequence diagrams",
+    "planificación de tareas": "task planification",
+
+    "línea del tiempo": "timeline",
+    "Ingeniero de Software": "Software Engineer",
+    "timelineActivities": {
+        "exertus20222023": "Participation in a project to develop a portal website of management services that centralizes the operations of the ERP software SAP for affiliate companies, my main role was in frontend development with ReactJS and during the final stage of the phase, I assisted with backend tasks in C#",
+        "vrparallevar2020": "Leadership in the development of a virtual reality 360° website experience for a cinema event, where users of Mexico can enjoy short films from home using a virtual reality viewer like Google Cardboard",
+        "gestalabs20192022": "Participation in the planning and collaborative development with frontend/backend team of services for industry 4.0 innovation solutions, working closely with experts coworkers in IoT and/or AI, Cloud/Architecture for design and implementation. <br/><br/> - Mobile Application installed on trailers for fuel optimization, providing real-time information to pilots for driving recommendations based on the route and weight of the trip <br/><br/> - Industrial Dashboards for monitoring and preventive maintenance of industrial machines using variable sensors installed on machines in real-time <br/><br/> - Computer Vision dashboards for the detection of failures on industrial parts/pieces using hardware such as cameras and CPUs for real-time processing of 2D and 3D images",
+        "interserv20182019": "Overture of the software development department in a small company, my main responsibility was built an intranet website for project management and monitoring within company",
+        "campusparty2016": "Participation and presentation of a project in a hackathon focused on ideas to combat poverty. Our team developed a prototype mobile application for locating shelters within the users geographic area and providing information about the necessities available at each shelter <br/><br/> top #10 (León, Guanajuato) <br/> top #100 (Guadalajara, Jalisco)"
+    },
+
+    "cuestionario": "questionary",
+    "questionary": {
+        "qa1": {
+            "q": "What abilities and strenghts do you think you have?",
+            "a": "I think I do my best in accomplishing my work. I consider myself a person who can solve problems, and I like to listen to others. <br/> I am always willing to offer help."
+        },
+        "qa2": {
+            "q": "What work activities are of your interest?",
+            "a": "I enjoy the design and anlysis, testing my ingenuity, executing ideas and developing them"
+        },
+        "qa3": {
+            "q": "What software topics are of your interest?",
+            "a": "Blockchain, artificial intelligence (genetic algorithms), and I'm interested to learn new practices/methods for analysis/design/coding"
+        },
+        "qa4": {
+            "q": "Which projects would you like to participate in?",
+            "a": "I'm attracted to projects with the objective of improving the lives of everybody, being part of a change for good <br/><br/> I also enjoy innovation projects that require effort and creativity."
+        },
+        "qa5": {
+            "q": "What long-term goals do you have?",
+            "a": "Primarily keep working, I also like the idea of having a personal project in development. Moreover, I aspire to create a legacy, such as building a home with my loved ones"
+        },
+        "qa6": {
+            "q": "What is your personality like?",
+            "a": "I'm somebody who is quiet and introverted/shy. At first, I can be serious, but I enjoy getting to know and listening to people"
+        },
+        "qa7": {
+            "q": "What is the meaning of life to you?",
+            "a": "Experience all emotions, try to be better everyday, flow in and with your generation, appreciate time ⏳, contribute and respect nature to leave a better place for the next life."
+        },
+        "qa8": {
+            "q": "If you had one wish, what would it be?",
+            "a": "To be able to explore and witness the universe 🌌"
+        },
+        "qa9": {
+            "q": "What are your hobbies or pleasures?",
+            "a": "I enjoy playing videogames, learning to play piano like classic music, reading about Mexican anthropology/novels/science-fiction and philosophy, watching series/movies and enjoying almost any type of food. <br/><br/>I also enjoy disconnecting from the world, such as going on trips to anyplace, like a walk in forests or rest/relaxing on the beach."
+        },
+        "qa10": {
+            "q": "Do you have any pets?",
+            "a": "3 cats/1 dog"
+        }
+    }
+}
