@@ -26,12 +26,12 @@ const Tools = ({ showAnimation }) => {
                 <br/>
                 {
                     toolsData.map((tool, idx) => (
-                        <Box className='description'>
+                        <Box key={`${tool.field}-${idx}`} className='description'>
                             <span> { t(tool.field) }: </span>
                             <Box className='items'>
                                 {
                                     tool.items.map((item, idx) => (
-                                        <span>
+                                        <span key={`${item}-${idx}`}>
                                             { t(item) }
                                         </span>
                                     ))

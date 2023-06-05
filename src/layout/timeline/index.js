@@ -23,7 +23,7 @@ const Timeline = ({ showAnimation }) => {
                 <br/>
                 {
                     timelineData.map((data, idx) => (
-                        <Box className='description'>
+                        <Box key={`${data.title}${data.time}-${idx}`} className='description'>
                             <span> { data.title } ({ data.time}) </span>
                             <span> { t(data.role) } </span>
                             <span dangerouslySetInnerHTML={{ __html: t(data.activity) }} />

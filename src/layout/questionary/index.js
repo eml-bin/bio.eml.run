@@ -23,7 +23,7 @@ const Questionary = ({ showAnimation }) => {
                 <br/>
                 {
                     questionaryData.map((item, idx) => (
-                        <Box className='questions'>
+                        <Box key={`${item.question}-${idx}`} className='questions'>
                             <span>P: { `${t(item.question)}` }</span>
                             <br/>
                             <span dangerouslySetInnerHTML={{ __html: `R: ${t(item.answer)}` }} />
