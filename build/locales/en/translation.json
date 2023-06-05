@@ -27,7 +27,7 @@
     "línea del tiempo": "timeline",
     "Ingeniero de Software": "Software Engineer",
     "timelineActivities": {
-        "exertus20222023": "Freelance experience, participation in a project to develop a portal website of management services that centralizes the operations of the ERP software SAP for affiliate companies, my main role was in frontend development with ReactJS and during the final stage of the phase, I assisted with backend tasks in C#",
+        "exertus20222023": "Participation as a freelancer in a project to develop a portal website of management services that centralizes the operations of the ERP software SAP for affiliate companies, my main role was in frontend development with ReactJS and during the final stage of the phase, I assisted with backend tasks in C#",
         "vrparallevar2020": "Leadership in the development of a virtual reality 360° website experience for a cinema event, where users of Mexico can enjoy short films from home using a virtual reality viewer like Google Cardboard",
         "gestalabs20192022": "Participation in the planning and collaborative development with frontend/backend team of services for industry 4.0 innovation solutions, working closely with experts coworkers in IoT and/or AI, Cloud/Architecture for design and implementation. <br/><br/> - Mobile Application installed on trailers for fuel optimization, providing real-time information to pilots for driving recommendations based on the route and weight of the trip <br/><br/> - Industrial Dashboards for monitoring and preventive maintenance of industrial machines using variable sensors installed on machines in real-time <br/><br/> - Computer Vision dashboards for the detection of failures on industrial parts/pieces using hardware such as cameras and CPUs for real-time processing of 2D and 3D images",
         "interserv20182019": "Overture of the software development department in a small company, my main responsibility was built an intranet website for project management and monitoring within company",
@@ -70,7 +70,7 @@
         },
         "qa9": {
             "q": "What are your hobbies or pleasures?",
-            "a": "I enjoy playing videogames, learning to play piano like classic music, reading about Mexican anthropology/novels/science-fiction and philosophy, watching series/movies and enjoying almost any type of food. <br/><br/>I also enjoy disconnecting from the world, such as going on trips to anyplace, like a walk in forests or rest/relaxing on the beach."
+            "a": "I enjoy playing videogames, learn to play piano like classical music, play or watch soccer, read about Mexican anthropology/novels/science-fiction and philosophy, watch series/movies and enjoying almost any type of food. <br/><br/>I also enjoy disconnecting from the world, such as going on trips to anyplace, like a walk in forests or rest/relaxing on the beach."
         },
         "qa10": {
             "q": "Do you have any pets?",
