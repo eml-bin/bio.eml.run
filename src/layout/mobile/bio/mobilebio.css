@@ -42,18 +42,11 @@
 }
 
 .mobile-container .links {
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 15px;
 }
 
 .mobile-container .links a {
-    font-size: 1.15rem;
-    text-shadow: 0 0 4px var(--tearsgreen-rgb);
-    /* text-shadow: 1px 1px 0px var(--tearsgreen-rgb); */
-    text-decoration: none;
+    padding-top: 5px;
 }
 
 .mobile-container .sections-grid .description {

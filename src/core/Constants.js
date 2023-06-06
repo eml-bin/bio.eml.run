@@ -12,11 +12,11 @@ export const SEED = {
             { key: 'rol', value: 'Fullstack Engineer' },
         ],
         LINKS: [
-            { key: 'CV', type: '📄', value: 'https://s3.us-east-2.amazonaws.com/eml.run/EML-CV23.pdf', emoji: '📄' },
+            { key: 'cv', type: '📄', value: 'https://s3.us-east-2.amazonaws.com/eml.run/EML-CV23.pdf', emoji: '📄' },
             { key: 'móvil', type: '📞', value: '+524612275316', emoji: '📞' },
             { key: 'email', type: '✉️', value: 'edu@eml.run', emoji: '📧' },
             { key: 'linkedin', type: '🌐', value: 'https://www.linkedin.com/in/eml9407/', emoji: '👷‍♂️' },
-            { key: 'code', type: '🌐', value: 'https://github.com/eml-bin', emoji: '🧑‍💻' },
+            { key: 'github', type: '🌐', value: 'https://github.com/eml-bin', emoji: '🧑‍💻' },
             { key: 'stackoverflow', type: '🌐', value: 'https://stackoverflow.com/users/4010240/eduardo-ml', emoji: '🗣️' }
         ]
     },

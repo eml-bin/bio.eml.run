@@ -52,9 +52,9 @@ const Data = () => {
                         linksData.map((item,idx) => (
                             item.type === docs.FILE ? 
                             // eslint-disable-next-line jsx-a11y/anchor-is-valid
-                            <a key={`${item.key}-${idx}`} title={t(item.key)} href="" onClick={(event) => { event.preventDefault(); handleDownload(item.value);}}> {item.emoji} </a>
+                            <a key={`${item.key}-${idx}`} title={t(item.key)} href="" onClick={(event) => { event.preventDefault(); handleDownload(item.value);}}> <span>{item.emoji}</span> <span>{t(item.key)}</span> </a>
                             :
-                            <a key={`${item.key}-${idx}`} target={item.type === docs.WEBSITE ? '_blank' : undefined}  href={`${linkFormatter(item.type)}${item.value}`} title={t(item.key)} rel="noreferrer"> {item.emoji} </a>
+                            <a key={`${item.key}-${idx}`} target={item.type === docs.WEBSITE ? '_blank' : undefined}  href={`${linkFormatter(item.type)}${item.value}`} title={t(item.key)} rel="noreferrer"> <span>{item.emoji}</span> <span>{t(item.key)}</span> </a>
                         ))
                     }
                 </Box>

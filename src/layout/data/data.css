@@ -27,3 +27,33 @@
     font-size: 0.8rem;
     vertical-align: text-top;
 }
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.links a {
+    display: flex;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.links a span:first-child {
+    text-shadow: 0 0 4px var(--tearsgreen-rgb);
+    text-decoration: none;
+}
+
+.links a span:nth-child(2) {
+    font-size: 0.6rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 2px;
+    text-shadow: 0 0 1px var(--tearsgreen-rgb);
+    color: var(--tearsgreen-rgb);
+}
+
+.links a span:nth-child(2):hover {
+    text-decoration: underline;
+}
