@@ -1,3 +1,3 @@
-# bio.eml.run (Portfolio Website)
+# Portfolio Website
 
 Code of https://bio.eml.run 👨‍💻🔨
