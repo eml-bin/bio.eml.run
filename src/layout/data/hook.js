@@ -12,9 +12,10 @@ export const useData = () => {
         fetch(url)
         .then(response => response.blob())
         .then(blob => {
+            const currentDate = new Date()
             const link = document.createElement("a");
             link.href = URL.createObjectURL(blob);
-            link.download = 'eml-cv.pdf';
+            link.download = `CV_FullstackEngineer${currentDate.getFullYear().toString()}.pdf`;
             link.click();
         })  
         .catch(console.error);
