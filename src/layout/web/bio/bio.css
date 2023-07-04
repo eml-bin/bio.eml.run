@@ -57,10 +57,6 @@
     content: '> ';
 }
 
-.principal-grid .personal-data .links {
-    justify-content: space-evenly;
-}
-
 .principal-grid .personal-data .links a {
     padding-top: 5px;
 }

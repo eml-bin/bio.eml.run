@@ -30,28 +30,29 @@
 
 .links {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .links a {
     display: flex;
-    margin-right: 10px;
+    margin-right: 13px;
     text-decoration: none;
 }
 
 .links a span:first-child {
     text-shadow: 0 0 4px var(--tearsgreen-rgb);
     text-decoration: none;
+    font-size: 0.8rem;
 }
 
 .links a span:nth-child(2) {
-    font-size: 0.6rem;
+    color: var(--tearsgreen-rgb);
+    font-size: 0.7rem;
+    letter-spacing: 1.2px;
     margin-top: auto;
     margin-bottom: auto;
-    padding-left: 2px;
+    padding-left: 4px;
     text-shadow: 0 0 1px var(--tearsgreen-rgb);
-    color: var(--tearsgreen-rgb);
 }
 
 .links a span:nth-child(2):hover {
