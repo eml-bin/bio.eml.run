@@ -145,6 +145,12 @@ export const SEED = {
     ],
     TIMELINE: [
         {
+            title: 'IECA',
+            time: '2023',
+            role: 'Instructor de Tecnología',
+            activity: 'timelineActivities.ieca2023' 
+        },
+        {
             title: 'Exertus',
             time: '2022-2023',
             role: 'Fullstack Developer',
