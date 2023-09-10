@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next"
+
 export const mexColors = [
     '1AF597', 'FFFFFF', 'ef0e02'
 ]
@@ -145,38 +147,44 @@ export const SEED = {
     ],
     TIMELINE: [
         {
-            title: 'IECA',
+            title: `IECA`,
             time: '2023',
+            duration: { isActive: true },
             role: 'Instructor de Tecnología',
             activity: 'timelineActivities.ieca2023' 
         },
         {
             title: 'Exertus',
             time: '2022-2023',
+            duration: { years: null, months: 6, isActive: false },
             role: 'Fullstack Developer',
             activity: 'timelineActivities.exertus20222023' 
         },
         {
             title: 'VR para Llevar',
             time: '2020',
+            duration: { years: null, months: 2, isActive: false },
             role: 'Fullstack Developer',
             activity: 'timelineActivities.vrparallevar2020' 
         },
         {
             title: 'GestaLabs',
             time: '2019-2022',
+            duration: { years: 3, months: 2, isActive: false },
             role: 'Fullstack Engineer',
             activity: 'timelineActivities.gestalabs20192022'
         },
         {
             title: 'Interserv',
             time: '2018-2019',
+            duration: { years: 1, isActive: false },
             role: 'Ingeniero de Software',
             activity: 'timelineActivities.interserv20182019'
         },
         {
             title: 'Campus Party Hackathon',
             time: '2016',
+            duration: null,
             role: 'Developer',
             activity: 'timelineActivities.campusparty2016'
         }

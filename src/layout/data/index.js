@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Box, Link } from "@mui/material"
+import { Box, Link, List, ListItem } from "@mui/material"
 import React from "react"
 import { InfoBox } from "../../components/InfoBox/InfoBox"
 import { AccountBox, Translate } from "@mui/icons-material"
@@ -26,7 +26,7 @@ const Data = () => {
     return (
         <Box className={'mossgreen-window neon-ef'}>
             <Box className="translation">
-                <a href="#" onClick={handleChangeLang}>
+                <a href="#" onClick={handleChangeLang} style={{ padding: "5px" }}>
                     <Translate />
                     <span>{lang}</span>
                 </a>
@@ -48,15 +48,21 @@ const Data = () => {
                 boxClass={'personal-data'}
             >
                 <Box className={'links'}>
-                    {
-                        linksData.map((item,idx) => (
-                            item.type === docs.FILE ? 
-                            // eslint-disable-next-line jsx-a11y/anchor-is-valid
-                            <a key={`${item.key}-${idx}`} title={t(item.key)} href="" onClick={(event) => { event.preventDefault(); handleDownload(item.value);}}> <span>{item.emoji}</span> <span>{t(item.key)}</span> </a>
-                            :
-                            <a key={`${item.key}-${idx}`} target={item.type === docs.WEBSITE ? '_blank' : undefined}  href={`${linkFormatter(item.type)}${item.value}`} title={t(item.key)} rel="noreferrer"> <span>{item.emoji}</span> <span>{t(item.key)}</span> </a>
-                        ))
-                    }
+                    <List dense>
+                        {
+                            linksData.map((item,idx) => (
+                                <ListItem key={`${item.key}-${idx}`}>
+                                    {
+                                        item.type === docs.FILE ? 
+                                        // eslint-disable-next-line jsx-a11y/anchor-is-valid
+                                        <a title={t(item.key)} href="" onClick={(event) => { event.preventDefault(); handleDownload(item.value);}}> <span>{item.emoji}</span> <span>{t(item.key)}</span> </a>
+                                        :
+                                        <a target={item.type === docs.WEBSITE ? '_blank' : undefined}  href={`${linkFormatter(item.type)}${item.value}`} title={t(item.key)} rel="noreferrer"> <span>{item.emoji}</span> <span>{t(item.key)}</span> </a>
+                                    }
+                                </ListItem>
+                            ))
+                        }
+                    </List>
                 </Box>
             </InfoBox>
             <div className='binary-jumpline' />

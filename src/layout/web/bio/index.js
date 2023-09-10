@@ -2,12 +2,11 @@ import { Box, Grid } from '@mui/material'
 import React from 'react'
 import './bio.css'
 import { useBio } from './hook'
-import { Construction, PsychologyAlt } from '@mui/icons-material'
+import { Construction } from '@mui/icons-material'
 import TimelineIcon from '@mui/icons-material/Timeline';
 import { WindowButton } from '../../../components/WindowButton'
 import { Tools } from '../../tools'
 import { Timeline  } from '../../timeline'
-import { Questionary } from '../../questionary'
 import { useConstants } from '../../../core/hooks/useConstants'
 import { Data } from '../../data'
 
@@ -44,20 +43,11 @@ const Bio = () => {
                         >
                             <TimelineIcon />
                         </WindowButton>
-                        <WindowButton 
-                            variant='outlined' 
-                            title={sections.QUESTIONARY} 
-                            className={`${sections.QUESTIONARY} neon-ef ${sectionButtonPressed === sections.QUESTIONARY && 'snake-animation'}`} 
-                            onClick={() => handleSectionButtonClick(sections.QUESTIONARY) }
-                        >
-                            <PsychologyAlt />
-                        </WindowButton>
                     </Box>
                 </Grid>
                 <Grid className='sections-grid' item xs={8}>
                     <Tools showAnimation={sectionButtonPressed === sections.TOOLS}/>
                     <Timeline showAnimation={sectionButtonPressed === sections.TIMELINE}/>
-                    <Questionary showAnimation={sectionButtonPressed === sections.QUESTIONARY}/>
                 </Grid>
             </Grid>
         </>

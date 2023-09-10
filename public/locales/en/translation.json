@@ -27,12 +27,12 @@
     "línea del tiempo": "timeline",
     "Ingeniero de Software": "Software Engineer",
     "timelineActivities": {
-        "ieca2023": "Technological courses, occasional courses impartation about technology tools such as programming languages, frameworks, database management, application virtualization, cloud services or project management",
-        "exertus20222023": "Freelancer experience, participation in technological project development, construction of portal website of management services that centralizes the operations of the ERP software SAP for affiliate companies.",
-        "vrparallevar2020": "Lead the software development of a 360° virtual reality technological innovation project, website experience for a cinema event, where users of Mexico can enjoy short films from home using a virtual reality viewer like Google Cardboard",
-        "gestalabs20192022": "Planning of software services for technological innovation projects of industry 4.0. <br/><br/> - Mobile Application installed on trailers for fuel optimization, providing real-time information to pilots for driving recommendations based on the route and weight of the trip <br/><br/> - Industrial Dashboards for monitoring and preventive maintenance of industrial machines using variable sensors installed on machines in real-time <br/><br/> - Computer Vision dashboards for the detection of failures on industrial parts/pieces using hardware such as cameras and CPUs for real-time processing of 2D and 3D images",
-        "interserv20182019": "Overture of the software development department in a small company, intranet development for project management and monitoring within company",
-        "campusparty2016": "Participation and presentation of a project in a hackathon focused on ideas to combat poverty. Our team developed a prototype mobile application for locating shelters within the users geographic area and providing information about the necessities available at each shelter <br/><br/> top #10 (León, Guanajuato) <br/> top #100 (Guadalajara, Jalisco)"
+        "ieca2023": "Technological courses, courses impartation about technology tools such as programming languages, database management, virtualization, cloud services or project management.",
+        "exertus20222023": "Freelancer experience, participation in technological project development for FEMSA corporative, construction of portal website of management services that centralizes the operations of the ERP software SAP for affiliate companies.",
+        "gestalabs20192022": "Planning of software services for multiple technological projects of industry 4.0 innovation for important national industries. <br/><br/> - Mobile Application installed on trailers for fuel optimization, providing real-time information to pilots for driving recommendations based on the route and weight of the trip <br/><br/> - Industrial Dashboards for monitoring and preventive maintenance of industrial machines using variable sensors installed on machines in real-time <br/><br/> - Computer Vision dashboards for the detection of failures on industrial parts/pieces using hardware such as cameras and CPUs for real-time processing of 2D and 3D images.",
+        "vrparallevar2020": "Lead the software development of a 360° virtual reality technological innovation project, website for home-based cinema event, where users of Mexico can enjoy short films from home using a virtual reality viewer like Google Cardboard.",
+        "interserv20182019": "Opening of the software development department in a small company, building of an intranet site for project management and monitoring.",
+        "campusparty2016": "Hackathon team, participation in the creation of a mobile app to locate nearby shelters and learn about their specific needs. Initiative to fight poverty with positive social impact. <br/><br/> top #10 (León, Guanajuato) <br/> top #100 (Guadalajara, Jalisco)"
     },
 
     "cuestionario": "questionary",
@@ -77,5 +77,10 @@
             "q": "Do you have any pets?",
             "a": "3 cats/1 dog"
         }
-    }
+    },
+    "años": "years",
+    "meses": "months",
+    "año": "year",
+    "mes": "month",
+    "Activo": "Active"
 }

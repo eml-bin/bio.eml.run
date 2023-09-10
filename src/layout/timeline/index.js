@@ -4,6 +4,7 @@ import './timeline.css'
 import { useConstants } from "../../core/hooks/useConstants"
 import { InfoBox } from "../../components/InfoBox/InfoBox"
 import { useTranslation } from "react-i18next"
+import { useFormatters } from "../../core/hooks/useFormatters"
 
 const Timeline = ({ showAnimation }) => {
 
@@ -11,6 +12,8 @@ const Timeline = ({ showAnimation }) => {
         sections,
         timelineData
     } = useConstants()
+
+    const { durationFormatter } = useFormatters()
 
     const { t } = useTranslation()
 
@@ -24,7 +27,7 @@ const Timeline = ({ showAnimation }) => {
                 {
                     timelineData.map((data, idx) => (
                         <Box key={`${data.title}${data.time}-${idx}`} className='description'>
-                            <span> { data.title } ({ data.time}) </span>
+                            <span> { data.title } ({ data.time}) { data.duration && `— [${ durationFormatter(data.duration) }]` } </span>
                             <span> { t(data.role) } </span>
                             <span dangerouslySetInnerHTML={{ __html: t(data.activity) }} />
                         </Box>

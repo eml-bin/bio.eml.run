@@ -1,12 +1,11 @@
 import { Grid } from "@mui/material"
 import './mobilebio.css'
-import { Construction, PsychologyAlt } from "@mui/icons-material"
+import { Construction } from "@mui/icons-material"
 import TimelineIcon from '@mui/icons-material/Timeline';
 import { useConstants } from "../../../core/hooks/useConstants"
 import { WindowButton } from "../../../components/WindowButton"
 import { Tools } from "../../tools";
 import { Timeline } from "../../timeline";
-import { Questionary } from "../../questionary";
 import { useMobileBio } from "./hook";
 import { Data } from "../../data";
 
@@ -26,7 +25,7 @@ const BioMobile = () => {
             <Grid className="data-grid" item xs={12}>
                 <Data />
             </Grid>
-            <Grid xs={12} className={'menu'}>
+            <Grid item xs={12} className={'menu'}>
                 <WindowButton 
                     size="small"
                     variant='outlined' 
@@ -45,15 +44,6 @@ const BioMobile = () => {
                 >
                     <TimelineIcon />
                 </WindowButton>
-                <WindowButton
-                    size="small" 
-                    variant='outlined' 
-                    title={sections.QUESTIONARY}
-                    className={`${sections.QUESTIONARY} neon-ef`} 
-                    onClick={() => handleOnClickSection(sections.QUESTIONARY)}
-                >
-                    <PsychologyAlt />
-                </WindowButton>
             </Grid>
             <Grid className="sections-grid" item xs={12}>
                 {
@@ -61,9 +51,6 @@ const BioMobile = () => {
                 }
                 {
                     visibleSection === sections.TIMELINE && <Timeline />
-                }
-                {
-                    visibleSection === sections.QUESTIONARY && <Questionary />
                 }
             </Grid>
         </Grid>
