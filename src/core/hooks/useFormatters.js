@@ -39,7 +39,7 @@ export const useFormatters = () => {
         if (duration.months) {
             return `${duration.months} ${t(pluralOrNot("meses", duration.months))}`
         }
-    }, [])
+    }, [t])
 
     return {
         linkFormatter,

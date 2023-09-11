@@ -1,5 +1,3 @@
-import { useTranslation } from "react-i18next"
-
 export const mexColors = [
     '1AF597', 'FFFFFF', 'ef0e02'
 ]

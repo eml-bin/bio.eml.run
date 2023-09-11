@@ -13,7 +13,6 @@
 
 .principal-grid {
     height: 95vh;
-    font-size: 0.9rem;
 }
 
 .principal-grid .mossgreen-window {
@@ -26,12 +25,12 @@
 
 .principal-grid .menu {
     position: relative;
+    top: -17%;
     left: -20px;
-    width: auto;
     display: flex;
     flex-direction: column;
+    width: auto;
     background-color: transparent;
-    justify-content: flex-start;
 }
 
 .principal-grid .menu button {

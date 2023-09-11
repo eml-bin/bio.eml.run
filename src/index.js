@@ -2,30 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
-import './assets/index.css'
-import { Bio } from './layout/web/bio';
-import BackgroundContainer from './components/BackgroundContainer';
 import { ThemeProvider } from '@emotion/react';
-
 import { theme } from './mui-theme'
-import { BrowserView, MobileView } from 'react-device-detect';
-import { BioMobile } from './layout/mobile/bio';
+
+import './assets/index.css'
 import './i18n';
 
+import App from './layout/App';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-        <BrowserView>
-          <BackgroundContainer device={'browser'}>
-              <Bio />
-          </BackgroundContainer>
-        </BrowserView>
-        <MobileView>
-          <BackgroundContainer device={'mobile'}>
-            <BioMobile />
-          </BackgroundContainer>
-        </MobileView>
+        <App />
     </ThemeProvider>
   </React.StrictMode>
 );
