@@ -26,14 +26,17 @@ export const SEED = {
             items: [
                 'reactjs',
                 'angular',
-                'css'
+                'css',
+                'html'
             ]
         },
         {
             field: 'Backend',
             items: [
                 'python',
-                'c#'
+                'c#',
+                'node.js',
+                'java'
             ]
         },
         {
@@ -95,7 +98,8 @@ export const SEED = {
                 'redux',
                 'jwt',
                 'eslint',
-                'lodash'
+                'lodash',
+                'spring'
             ]
         },
         {
