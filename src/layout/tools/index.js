@@ -30,7 +30,7 @@ const Tools = ({ showAnimation }) => {
                             <span> { t(tool.field) }: </span>
                             <Box className='items'>
                                 {
-                                    tool.items.map((item, idx) => (
+                                    tool.items.sort().map((item, idx) => (
                                         <span key={`${item}-${idx}`}>
                                             { t(item) }
                                         </span>
