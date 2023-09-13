@@ -89,6 +89,7 @@ export const SEED = {
         {
             field: 'Librerías/Frameworks',
             items: [
+                'graphql',
                 'azure powerapps',
                 'mapbox',
                 'flask',
