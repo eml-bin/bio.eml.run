@@ -17,6 +17,7 @@ export const SEED = {
             { key: 'email', type: '✉️', value: 'edu@eml.run', emoji: '📧' },
             { key: 'linkedin', type: '🌐', value: 'https://www.linkedin.com/in/eml9407/', emoji: '👷‍♂️' },
             { key: 'github', type: '🌐', value: 'https://github.com/eml-bin', emoji: '🧑‍💻' },
+            { key: 'discord (community)', type: '🌐', value: 'https://discord.gg/e63MyRsm', emoji: '💻🐍' },
             { key: 'stackoverflow', type: '🌐', value: 'https://stackoverflow.com/users/4010240/eduardo-ml', emoji: '🗣️' }
         ]
     },
